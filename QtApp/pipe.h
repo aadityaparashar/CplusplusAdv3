@@ -11,7 +11,7 @@
 #include "mainwindow.h"
 //
 
-class Pipe : public MainWindow
+class Pipe
 {
 
 private:
@@ -21,7 +21,7 @@ private:
 public:
     int connect()
     {
-        log_set("Finally freaking logging");
+
 
         while (1)
         {
